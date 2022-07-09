@@ -1,11 +1,45 @@
+html {
+	background-color: beige;
+}
+
 h1 {
-	color: aquamarine;
+	color: pink;
 	font-size: 40px;
 	text-align: center;
 }
 
-p {
-	color: aqua;
-	font-size: 40px;
-	width: 400px;
+h2 {
+	color: purple;
+	font-size: 30px;
+}
+
+p.italic {
+	color: brown;
+	background-color: yellow;
+	text-decoration: underline;
+}
+
+ul>a>li {
+	color: skyblue;
+	margin: 30px;
+	font-size: 20px;
+	text-align: left;
+}
+
+#highlight {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 16px;
+	text-align: right;
+}
+
+span#email {
+	font-style: italic;
+	border-width: thick;
+	border-style: solid;
+	border-color: azure;
+}
+
+img {
+	object-fit: none;
+	object-position: right;
 }
